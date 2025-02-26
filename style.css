@@ -388,12 +388,29 @@ background-color: #12b5a3;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
+    width: 40%;
 }
 
 .carou .carousel-item img {
     height: 250px; /* Adjust height as needed */
     object-fit: cover;
 }
+
+.buttons-container{
+    margin-top: -2rem !important;
+}
+
+.levels{
+    border-radius: 0 !important;
+    padding: 1rem;
+}
+
+/* .p-0{
+    padding: 0 !important;
+} */
+
+
+
 
 
 /* Responsive */
@@ -410,6 +427,13 @@ background-color: #12b5a3;
         width: 100%;
         margin-bottom: 10px;
     }
+
+    /* .bg-light {
+        background-color: #E0F8E0 !important; 
+    }
+    .shadow-sm {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    } */
 }
 
 
